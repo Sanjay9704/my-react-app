@@ -3,7 +3,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
+import { Link } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Image from "./crm-for-event-management.jpg"; 
@@ -91,7 +91,9 @@ const Login = () => {
               </Link>
             </Typography>
               <Button type="submit" variant="contained" color="primary" fullWidth style={{ marginTop: '10px', transition: 'background-color 0.3s' }}>
+              <Link to='/'>
                 Login
+              </Link>
               </Button>
             </form>
           </Paper>
@@ -103,7 +105,7 @@ const Login = () => {
             
             <Typography variant="body2" color="textSecondary" align="center" style={{ marginTop: '10px' }}>
               Don't have an account?{' '}
-              <Link href="#" color="primary">
+              <Link to='/Register'>
                 Register
               </Link>
             </Typography>

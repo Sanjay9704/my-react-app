@@ -44,8 +44,8 @@ const Register= () => {
   return (
     <>
     <Navbar/>
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', fontFamily: 'Arial, sans-serif', backgroundColor: '#f4f4f4' }}>
-      <header style={{ marginBottom: '20px', textAlign: 'center', color: '#333', backgroundColor: '#61dafb', padding: '10px', borderRadius: '4px', width: '100%' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', fontFamily: 'Arial, sans-serif', backgroundColor: '940B92' }}>
+      <header style={{ marginBottom: '20px', textAlign: 'center', color: '#333', backgroundColor: '#E95793', padding: '10px', borderRadius: '4px', width: '100%' }}>
         <h1 style={{ margin: 0 }}>Registration App</h1>
       </header>
 
